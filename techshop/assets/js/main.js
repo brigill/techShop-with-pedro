@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-    alert("Welcome to Techshop!");
+    alert("Welcome to GillDev!");
 
     const navToggle = document.getElementById("nav-toggle");
     const navMenu = document.getElementById("nav-menu");
@@ -9,10 +9,10 @@ document.addEventListener("DOMContentLoaded", function () {
         $('#nav-toggle').css('background', 'red');
     });
 
-    const scorea = 2;
-    const scoreb = 3;
-    const scorec = (scorea + scoreb);
-    alert('scorec');
+    const scorea = 'Hello';
+    const scoreb = ' World!';
+    const scorec = scorea + scoreb;
+    alert(scorec);
 
 
 });
