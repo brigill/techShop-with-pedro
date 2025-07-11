@@ -10,13 +10,13 @@ document.addEventListener("DOMContentLoaded", function () {
 
     const score-a = 2;
     const score-b = 3;
-    const score-c = (score-a + score-b);
-    alert ('score-c');
+    const score-c = (score - a + score - b);
+    alert('score-c');
 
-if ($("#nav-menu").hasClass('active') {
-   $('#nav-toggle').css('background', 'red');                    
-} else {
-    $('#nav-toggle').css('background', 'green');  
-}
-    
+    if ($("#nav-menu").hasClass('active')) {
+        $('#nav-toggle').css('background', 'red');
+    } else {
+        $('#nav-toggle').css('background', 'green');
+    }
+
 });
