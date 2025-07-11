@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const score-b = 3;
     const score-c = (score-a + score-b);
 
-$("#nav-toggle").click(function() {
+$("#nav-menu").click(function() {
    $(this).css('background', 'red');                    
 });
     
