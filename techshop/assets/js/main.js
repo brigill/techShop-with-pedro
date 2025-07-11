@@ -7,4 +7,13 @@ document.addEventListener("DOMContentLoaded", function () {
     navToggle.addEventListener("click", function () {
         navMenu.classList.toggle("active");
     });
+
+    const score-a = 2;
+    const score-b = 3;
+    const score-c = (score-a + score-b);
+
+$("#nav-toggle").click(function() {
+   $(this).css('background', 'red');                    
+});
+    
 });
